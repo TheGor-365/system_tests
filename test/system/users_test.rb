@@ -18,6 +18,7 @@ class UsersTest < ApplicationSystemTestCase
     click_on "Create User"
 
     assert_text "User was successfully created"
+    take_screenshot
     click_on "Back"
   end
 
